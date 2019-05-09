@@ -1,0 +1,61 @@
+
+p {
+  padding-top: 4%;
+}
+
+h2 {
+  padding-bottom: 5%;
+}
+
+/* Navigation Bar */
+.mybar {
+  background-color: #FF6F61;
+}
+
+/* Introduction section */
+.introduction {
+  padding: 10% 10% 12%;
+
+
+}
+
+.projects {
+    padding: 45% 10% 0;
+    background-color: white;
+
+}
+
+.project-image {
+  padding-bottom: 10%;
+}
+ @media (min-width: 1028px) {
+   .mybar {
+     height: 100%;
+     width: 50px;
+     float: right !important;
+   }
+
+ }
+ .footer {
+     padding: 5% 10% 5%;
+ }
+
+/* Animated text */
+ .animated {
+  font-family: helvetica;
+  font-size: 4em;
+  font-weight: 900;
+  color: #FF6F61;
+  padding: 0;
+}
+
+ span {
+   border-right: .13em solid;
+   animation: caret .5s steps(1) infinite;
+ }
+
+ @keyframes caret {
+   50% {
+     border-color: transparent;
+   }
+ }
